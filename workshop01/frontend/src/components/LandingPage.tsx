@@ -13,7 +13,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ quote }) => {
         style={{ width: '400px', height: '300px' }} 
       />
       <h1>{quote}</h1>
-      <a href="https://https://github.com/ly0792/myrepo" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/ly0792/myrepo" target="_blank" rel="noopener noreferrer">
         View Repository
       </a>
     </div>
