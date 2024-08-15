@@ -6,7 +6,7 @@ const App: React.FC = () => {
   const [quote, setQuote] = useState<string>('');
 
   useEffect(() => {
-    fetch('http://localhost:7000/api/quotes')
+    fetch('https://workshop01-r6pk.onrender.com/api/quotes')
       .then((response) => response.json())
       .then((data) => setQuote(data.quote))
       .catch((error) => console.error('Error fetching quote:', error));
